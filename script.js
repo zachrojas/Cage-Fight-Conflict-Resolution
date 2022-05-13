@@ -5,30 +5,26 @@ var losses = 0;
 // Array of options for computer to pick from
 var options = ["R", "P", "S"];
 
+// Function to define game
 var playGame = function() {
-  // Ask user for their choice
   var userChoice = window.prompt("Enter R, P, or S:");
 
-  // If user pressed Cancel, immediately end function
   if (!userChoice) {
     return;
   }
 
-  // Convert to uppercase to make comparisons easier
   userChoice = userChoice.toUpperCase();
 
-  // Get random index from array of options
   var index = Math.floor(Math.random() * options.length);
   var computerChoice = options[index];
 
   window.alert("The computer chose " + computerChoice);
 
-  // If choices are the same, it's a tie
   if (userChoice === computerChoice) {
     ties++;
     window.alert("It's a tie!");
 
-  // Check every win condition for the player
+  // Check every win condition for player
   } else if (
     (userChoice === "R" && computerChoice === "S") || 
     (userChoice === "P" && computerChoice === "R") || 
@@ -37,7 +33,7 @@ var playGame = function() {
     wins++;
     window.alert("You win!");
 
-  // If above conditions failed, assume player lost
+  // If above conditions failed, player lost
   } else {
     losses++;
     window.alert("You lost!");
@@ -48,14 +44,14 @@ var playGame = function() {
     "Stats:\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
   );
 
-  // Ask user to play again
+  // Play again prompt
   var playAgain = window.confirm("Play again?");
 
-  // If user pressed OK, run the function again
+  // Play again if user pressed OK
   if (playAgain) {
     playGame();
   }
 };
 
-// Run the game for the first time
+// Run game
 playGame();
