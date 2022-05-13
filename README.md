@@ -18,9 +18,11 @@ ___
 >> - I AM THEN presented with my choices and the option to play another round, as well as high scores
 ___
 ___
-> ### **Contributors**
+> ### **Contributors & Sources**
 >> Only myself so far. 
 >> If you would like to contribute, please message me.
+>> SMU Full Stack Bootcamp
+>> Udemy course 50 Projects In 50 Days - HTML, CSS & JavaScript by Brad Traversy
 ___
 ___
 > ### **License**
