@@ -1,32 +1,26 @@
 #  👊 Cage Fight! 👊
 
->>>> ### *Created by* <br />
->>>>>> ### **Zach Rojas**
+>> ### *Created by*
+>> ### **Zach Rojas**
 
 ## Description
 
 >> This is just a rock paper scissors game that I created with the intention of resolving conflicts within my team(s). 
 >> I wanted to make it seem humorous and lighthearted.
 >> Development is ongoing.
-
-___
 ___
 ___
 > ### **User Story**
->>>> - AS a team member
->>>> - I WISH TO resolve a confict with another team member via an unbaised game
->>>> - SO THAT a confict may be resolved fairly
->>>> - WHEN I get to the landing page
->>>> - I AM THEN presented with my choices and the option to play another round, as well as high scores
-
-___
+>> - AS a team member
+>> - I WISH TO resolve a confict with another team member via an unbaised game
+>> - SO THAT a confict may be resolved fairly
+>> - WHEN I get to the landing page
+>> - I AM THEN presented with my choices and the option to play another round, as well as high scores
 ___
 ___
 > ### **Contributors**
 >> Only myself so far. 
 >> If you would like to contribute, please message me.
-
-___
 ___
 ___
 > ### **License**
