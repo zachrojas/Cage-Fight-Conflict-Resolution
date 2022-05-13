@@ -19,10 +19,10 @@ ___
 ___
 ___
 > ### **Contributors & Sources**
->> Only myself so far. 
->> If you would like to contribute, please message me.
->> SMU Full Stack Bootcamp
->> Udemy course 50 Projects In 50 Days - HTML, CSS & JavaScript by Brad Traversy
+>> - Only myself so far. 
+>> - If you would like to contribute, please message me.
+>> - SMU Full Stack Bootcamp
+>> - Udemy course 50 Projects In 50 Days - HTML, CSS & JavaScript by Brad Traversy
 ___
 ___
 > ### **License**
