@@ -5,10 +5,59 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>👊 Cage Fight! 👊</title>
+  <script src="https://kit.fontawesome.com/a5c18cc118.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: black;
+      color: orange;
+      text-align: center;
+    }
+
+    img {
+      padding: 15px;
+    }
+
+    .red-corner {
+      border: 2px solid red;
+      height: 450px;
+      width: 250px;
+    }
+
+    .blue-corner {
+      border: 2px solid blue;
+      height: 450px;
+      width: 250px;
+    }
+
+    .hand-cage {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .rps-icon {
+      font-size: 24pt;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Thanks for playing!</h1>
+  <h1>Rock, Paper, Scissors Cage Fight</h1>
+  <br>
+  <i class="fa-solid fa-hand-back-fist rps-icon"></i>
+  <i class="fa-solid fa-hand rps-icon"></i>
+  <i class="fa-solid fa-hand-scissors rps-icon"></i>
+  <br><br><br><br>
+  <div class="hand-cage">
+    <div class="red-corner">
+      <h3>Red Corner</h3>
+      <img src="rock.png" alt="Red Corner" height="300px" width="200px" ><figcaption>Red Corner are you ready?</figcaption>
+    </div>
+    <div class="blue-corner">
+      <h3>Blue Corner</h3>
+  <img src="rock.png" alt="Blue Corner" height="300px" width="200px" ><figcaption>Blue Corner are you ready?</figcaption>
+    </div>
+  </div>
   
   <script src="./script.js"></script>
 </body>

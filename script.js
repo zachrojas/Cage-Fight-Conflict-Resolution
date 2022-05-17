@@ -51,7 +51,12 @@ var playGame = function() {
   if (playAgain) {
     playGame();
   }
+
+
 };
 
 // Run game
 playGame();
+
+
+// going to add if statements that change the DOM to reflect picture of choice in thr appropriate spot
